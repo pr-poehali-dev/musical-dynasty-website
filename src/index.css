@@ -109,38 +109,14 @@
 @layer utilities {
   .logo-creative {
     filter: drop-shadow(0 4px 20px rgba(74, 83, 65, 0.15));
-    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .logo-creative:hover {
-    transform: scale(1.05) rotate(-2deg);
-    filter: drop-shadow(0 8px 30px rgba(74, 83, 65, 0.25));
   }
 
   .logo-hero {
     filter: drop-shadow(0 10px 40px rgba(74, 83, 65, 0.2));
-    animation: float 6s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%,
-    100% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    50% {
-      transform: translateY(-10px) rotate(1deg);
-    }
   }
 
   .logo-footer {
     filter: brightness(0) invert(1)
       drop-shadow(0 2px 10px rgba(255, 255, 255, 0.3));
-    transition: all 0.4s ease;
-  }
-
-  .logo-footer:hover {
-    transform: scale(1.1);
-    filter: brightness(0) invert(1)
-      drop-shadow(0 4px 20px rgba(255, 255, 255, 0.5));
   }
 }
