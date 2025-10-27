@@ -109,7 +109,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/files/a26605e1-0355-42a2-9883-37dbf831f5bf.png" 
             alt="Музыкальная династия" 
-            className="h-12"
+            className="h-12 logo-creative"
           />
           <div className="hidden md:flex gap-6">
             <button onClick={() => scrollToSection('about')} className="hover:text-accent transition-colors">О нас</button>
@@ -130,7 +130,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/files/6a4a5a4d-a098-4319-9bc9-d5f68fb7f63b.png" 
             alt="Музыкальная династия" 
-            className="mx-auto mb-8 w-64 md:w-96 animate-fade-in"
+            className="mx-auto mb-8 w-64 md:w-96 logo-hero"
           />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary">
             Музыкальная династия
@@ -368,7 +368,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/files/3c4b93a5-0228-41e3-ae32-6dfef16c223b.png" 
             alt="Музыкальная династия" 
-            className="h-12 mx-auto mb-4 invert brightness-0"
+            className="h-12 mx-auto mb-4 logo-footer"
           />
           <p className="text-sm opacity-90">
             © 2024 Музыкальная династия. Все права защищены.
