@@ -91,8 +91,13 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     font-family: "Open Sans", sans-serif;
+    background-image: url("https://cdn.poehali.dev/files/75fc170a-3159-47e9-9221-cbbce9d75953.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   h1,
