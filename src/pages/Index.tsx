@@ -103,7 +103,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen creative-bg">
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <img 
@@ -125,7 +125,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="pt-32 pb-20 px-4">
+      <section className="pt-32 pb-20 px-4 musical-ornament">
         <div className="container mx-auto text-center">
           <img 
             src="https://cdn.poehali.dev/files/6a4a5a4d-a098-4319-9bc9-d5f68fb7f63b.png" 
@@ -148,7 +148,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-card">
+      <section id="about" className="py-20 px-4 bg-card pattern-bg">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-primary">О нашей студии</h2>
           <p className="text-lg leading-relaxed mb-6 text-card-foreground">
@@ -162,7 +162,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="teachers" className="py-20 px-4">
+      <section id="teachers" className="py-20 px-4 creative-bg">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Наши преподаватели</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -185,7 +185,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="courses" className="py-20 px-4 bg-card">
+      <section id="courses" className="py-20 px-4 bg-card pattern-bg">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Наши курсы</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -216,7 +216,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="gallery" className="py-20 px-4">
+      <section id="gallery" className="py-20 px-4 creative-bg">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Галерея</h2>
           <Carousel className="max-w-4xl mx-auto">
@@ -249,7 +249,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="reviews" className="py-20 px-4 bg-card">
+      <section id="reviews" className="py-20 px-4 bg-card pattern-bg">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Отзывы учеников</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -270,7 +270,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 px-4">
+      <section id="contacts" className="py-20 px-4 creative-bg musical-ornament">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Контакты и запись</h2>
           <div className="grid md:grid-cols-2 gap-12">
