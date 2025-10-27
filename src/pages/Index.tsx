@@ -107,7 +107,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <img 
-            src="https://cdn.poehali.dev/files/a26605e1-0355-42a2-9883-37dbf831f5bf.png" 
+            src="https://cdn.poehali.dev/files/bddd9849-30d6-4682-ba49-ddfc392fa6df.png" 
             alt="Музыкальная династия" 
             className="h-12 logo-creative"
           />
@@ -128,7 +128,7 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto text-center">
           <img 
-            src="https://cdn.poehali.dev/files/6a4a5a4d-a098-4319-9bc9-d5f68fb7f63b.png" 
+            src="https://cdn.poehali.dev/files/bddd9849-30d6-4682-ba49-ddfc392fa6df.png" 
             alt="Музыкальная династия" 
             className="mx-auto mb-8 w-64 md:w-96 logo-hero"
           />
