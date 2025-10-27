@@ -166,31 +166,4 @@
       rgba(74, 83, 65, 0.02) 70px
     );
   }
-
-  .musical-ornament {
-    position: relative;
-  }
-
-  .musical-ornament::before,
-  .musical-ornament::after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid rgba(74, 83, 65, 0.1);
-    pointer-events: none;
-  }
-
-  .musical-ornament::before {
-    top: 10%;
-    left: 5%;
-  }
-
-  .musical-ornament::after {
-    bottom: 15%;
-    right: 8%;
-    width: 120px;
-    height: 120px;
-  }
 }

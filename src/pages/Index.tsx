@@ -125,7 +125,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="pt-32 pb-20 px-4 musical-ornament">
+      <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto text-center">
           <img 
             src="https://cdn.poehali.dev/files/6a4a5a4d-a098-4319-9bc9-d5f68fb7f63b.png" 
@@ -270,7 +270,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 px-4 creative-bg musical-ornament">
+      <section id="contacts" className="py-20 px-4 creative-bg">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary">Контакты и запись</h2>
           <div className="grid md:grid-cols-2 gap-12">
